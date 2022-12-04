@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B4-layout3</title>
+    <style>
+        header{
+            border: 2px solid;
+            text-align: center;
+            margin-bottom: 2px;
+        }
+        nav{
+            border: 2px solid;
+            text-align: center;
+            margin-bottom: 2px;
+        }
+        .div_tong{
+            /* border: 2px solid; */
+            display: flex;
+            height:700px;
+        }
+        .div1{
+            flex: 0.2;
+            border: 2px solid;
+            text-align: center;
+            margin-right: 2px;
+        }
+        .div2{
+            flex: 0.6;
+            text-align: center;
+            border: 2px solid;
+            margin-right: 2px;
+        }
+        .div3{
+            flex: 0.2;
+            border: 2px solid;
+            text-align: center;
+        }
+        footer{
+            border: 2px solid;
+            text-align: center;
+            margin-top: 2px;
+        }
+        .div1_phu{
+            padding-top: 350px; 
+            color: green; 
+        }
+        .div2_phu{
+            padding-top: 350px;
+            color: green;
+        }
+        .div3_phu{
+            padding-top: 350px;
+            color: green;
+        }
+        p{
+            color: green;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <p>Header</p>
+    </header>
+    <nav>
+        <p>Navigation Menu</p>
+    </nav>
+    <div class="div_tong">
+        <div class="div1"><p class="div1_phu">Content</p> </div>
+        <div class="div2"><p class="div2_phu">Main Content</p></div>
+        <div class="div3"><p class="div3_phu">Content</p></div>
+    </div>
+    <footer>
+        <p>Footer</p>
+    </footer>
+
+
+</body>
+</html>
